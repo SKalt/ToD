@@ -25,6 +25,7 @@ BSD-0
 - [./rotate-desktop-background.sh](./rotate-desktop-background.sh), [./change-gnome-appearance.sh](./change-gnome-appearance.sh)
   - [ ] consolidate shared functions: time-of-day lookup, theme-argument validation
   - [ ] time-of-day lookup should respect sun{rize,set}
+  - [ ] `DBUS_SESSION_BUS_ADDRESS` lookup address should be more robust 
 
 - use shellcheck
 - port this to golang :)
